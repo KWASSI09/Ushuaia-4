@@ -79,7 +79,7 @@ For this purpose, we have conducted this pre-processing process:
 * We then evaluated the NN model using K-Fold Cross Validation, with which we evaluated our estimator using the train data.
 * It is important to note that in this phase, the K = 10 is the number of splits of the mixed values.
 * We evaluate the accuracy of the Multi-class neural network by building a confusion matrix using the Seaborn library and Matplotlib.
-* With a Final Accuracy score of 79.7% and looking at the Confusion Matrix, our model is good at classifying Calm and Sad songs. However, we had some issues dealing with Happy songs, while energetic songs are quite well classified.
+* With a Final Accuracy score of 79.71% and looking at the Confusion Matrix, our model is good at classifying Calm and Sad songs. However, we had some issues dealing with Happy songs, while energetic songs are quite well classified.
 * The project can be improved by modifying parameters such as the epochs and eliminating some track features.
 
 
